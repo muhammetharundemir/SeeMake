@@ -28,7 +28,7 @@ For help:
 ./SeeMake -h
 ```
 
-Example-1:  
+Example (Custom):  
 
   
 →  Output File Name: myRunFile  
@@ -41,7 +41,7 @@ Example-1:
 ./SeeMake myRunFile 17
 ``` 
 
-Example-2:  
+Example (Default):  
 
   
 →  Output File Name: main  
