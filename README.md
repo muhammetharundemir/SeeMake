@@ -13,6 +13,12 @@ cd SeeMake/
 ```
 
 ## Usage
+Copy "SeeMake" file and paste it in the directory you are working in.  
+
+  
+Then, go to the directory you are working in via the terminal.  
+
+  
 Create CMakeLists.txt file:
 ```bash
 ./SeeMake <output-file-name> <cpp-version-number>
@@ -23,15 +29,27 @@ For help:
 ```
 
 Example-1:  
+
+  
 →  Output File Name: myRunFile  
-→  C++ Version: C++17 
+
+  
+→  C++ Version: C++17  
+
+  
 ```bash
 ./SeeMake myRunFile 17
 ``` 
 
 Example-2:  
+
+  
 →  Output File Name: main  
+
+  
 →  C++ Version: C++20  
+
+  
 ```bash
 ./SeeMake
 ```
@@ -39,7 +57,7 @@ Example-2:
   
 After CMakeLists.txt created:
 ```bash
-cmake -b build && cmake --build build
+cmake -B build && cmake --build build
 ```
   
 Then you have output file in build folder.
