@@ -1,0 +1,25 @@
+# Derleme çıktıları
+/build/
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+*.exe
+
+# CMake cache dosyaları
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Visual Studio Code ile çalışıyorsan
+.vscode/
+
+# MacOS gereksiz dosyaları
+.DS_Store
+
+# Linux gereksiz dosyaları
+*.swp
